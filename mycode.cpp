@@ -10,7 +10,7 @@ class Box {
 
       // Member functions declaration
       double getVolume_1(void);
-      void setLength( double len );
+      void setLength_1( double len );
       void setBreadth( double bre );
       void setHeight( double hei );
 };
@@ -20,7 +20,7 @@ double Box::getVolume_1(void) {
    return length_1 * breadth * height;
 }
 
-void Box::setLength( double len ) {
+void Box::setLength_1( double len ) {
    length_1 = len;
 }
 void Box::setBreadth( double bre ) {
@@ -37,12 +37,12 @@ int main() {
    double volume = 0.0;     // Store the volume of a box here
  
    // box 1 specification
-   Box1.setLength(6.0); 
+   Box1.setLength_1(6.0); 
    Box1.setBreadth(7.0); 
    Box1.setHeight(5.0);
 
    // box 2 specification
-   Box2.setLength(12.0); 
+   Box2.setLength_1(12.0); 
    Box2.setBreadth(13.0); 
    Box2.setHeight(10.0);
 
