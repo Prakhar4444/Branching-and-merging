@@ -4,7 +4,7 @@ using namespace std;
 
 class Box {
    public:
-      double length;         // Length of a box
+      double length_1;         // Length of a box
       double breadth;        // Breadth of a box
       double height;         // Height of a box
 
@@ -17,11 +17,11 @@ class Box {
 
 // Member functions definitions
 double Box::getVolume(void) {
-   return length * breadth * height;
+   return length_1 * breadth * height;
 }
 
 void Box::setLength( double len ) {
-   length = len;
+   length_1 = len;
 }
 void Box::setBreadth( double bre ) {
    breadth = bre;
