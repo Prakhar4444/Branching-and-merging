@@ -9,14 +9,14 @@ class Box {
       double height;         // Height of a box
 
       // Member functions declaration
-      double getVolume(void);
+      double getVolume_1(void);
       void setLength( double len );
       void setBreadth( double bre );
       void setHeight( double hei );
 };
 
 // Member functions definitions
-double Box::getVolume(void) {
+double Box::getVolume_1(void) {
    return length_1 * breadth * height;
 }
 
@@ -47,11 +47,11 @@ int main() {
    Box2.setHeight(10.0);
 
    // volume of box 1
-   volume = Box1.getVolume();
+   volume = Box1.getVolume_1();
    cout << "Volume of Box1 : " << volume <<endl;
 
    // volume of box 2
-   volume = Box2.getVolume();
+   volume = Box2.getVolume_1();
    cout << "Volume of Box2 : " << volume <<endl;
    return 0;
 }
